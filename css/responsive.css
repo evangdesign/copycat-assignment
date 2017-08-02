@@ -1,0 +1,501 @@
+@media only screen and (min-width: 320px ) and (max-width: 550px)
+{
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  padding-bottom: 10px
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+  margin: 20px 65px 20px 65px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid red;
+}
+
+
+#bodycontainer {
+  width: 100%;
+
+}
+
+header {
+  box-sizing: border-box;
+  background-color: rgb(129, 226, 179);
+  width: 100%;
+  padding: 20px;
+}
+
+
+nav {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+.hero, .hero-content{
+  background-color: white;
+}
+
+.hero-image img{
+  width: 100%;
+}
+
+.call-to-action {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgb(224, 167, 55);
+  text-align: left;
+  line-height: 22px;
+}
+
+.call-to-action h3{
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.call-to-action p{
+font-size:  16px;
+padding-bottom: 10px;
+}
+
+.products {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgb(210, 207, 201);
+}
+
+.products h3 {
+  text-align: left;
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.products p {
+  text-align: left;
+  line-height: 22px;
+  padding-bottom: 10px;
+}
+
+.product-wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  list-style: none;
+}
+
+.product-item img{
+  width: 100%;
+}
+
+.about {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgb(38, 83, 120);
+  padding: 20px;
+}
+
+.team {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.team h3 {
+  color: rgb(201, 56, 78);
+}
+
+.team-fun, .team-values, .team-meow {
+  padding: 20px;
+  float: left;
+}
+
+.about p {
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  line-height: 18px;
+}
+
+footer {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(67, 207, 135);
+  padding: 18px;
+}
+
+footer p{
+  text-align: right;
+}
+
+}
+
+/* second break point */
+
+@media only screen and (min-width: 551px) and (max-width: 850px)
+{
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+
+
+#bodycontainer {
+  width: 100%;
+  overflow: hidden;
+
+}
+
+header {
+  box-sizing: border-box;
+  background-color: rgb(129, 226, 179);
+  width: 100%;
+  padding: 20px 20px 35px 20px;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  float: right;
+}
+
+.nav-item {
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+.hero {
+  background-color: rgb(33, 65, 113);
+  overflow: hidden;
+}
+
+.hero-image img{
+  width: 60%;
+  float: left;
+}
+
+.hero-content {
+  padding-top: 34px;
+  width: 40%;
+  float: right;
+}
+
+.call-to-action {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgb(224, 167, 55);
+  text-align: left;
+  line-height: 22px;
+}
+
+.call-to-action h3{
+  font-size: 24px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.call-to-action p{
+font-size:  18px;
+padding-bottom: 10px;
+line-height: 26px;
+}
+
+.products {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgb(210, 207, 201);
+}
+
+.products h3 {
+  text-align: left;
+  font-size: 24px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.products p {
+  font-size: 18px;
+  text-align: left;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+
+.product-wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+}
+
+
+.product-item img{
+  width: 28%;
+  border: 4px black solid;
+  margin: 15px;
+  float: left;
+}
+
+.about {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgb(38, 83, 120);
+  padding: 20px;
+}
+
+.team {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.team h3 {
+  padding: 0px 60px;
+  color: rgb(201, 56, 78);
+}
+
+.team-fun, .team-values, .team-meow {
+  padding: 20px;
+  float: left;
+}
+
+.about p {
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  line-height: 26px;
+}
+
+footer {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(67, 207, 135);
+  padding: 18px;
+}
+
+footer p{
+  text-align: right;
+}
+
+}
+
+/* 3rd break point */
+@media only screen and (min-width: 851px)
+{
+
+.container {
+  margin: auto;
+  width: 85%;
+}
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+
+
+#bodycontainer {
+  width: 100%;
+  overflow: hidden;
+
+}
+
+header {
+  box-sizing: border-box;
+  background-color: rgb(129, 226, 179);
+  width: 100%;
+  padding: 20px 20px 35px 20px;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  float: right;
+}
+
+.nav-item {
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+.hero {
+  background-color: rgb(33, 65, 113);
+  overflow: hidden;
+}
+
+.hero-image img{
+  width: 60%;
+  float: left;
+}
+
+.hero-content {
+  padding-top: 34px;
+  width: 40%;
+  float: right;
+}
+
+.call-to-action {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgb(224, 167, 55);
+  text-align: left;
+  line-height: 22px;
+}
+
+.call-to-action h3{
+  font-size: 24px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.call-to-action p{
+font-size:  18px;
+padding-bottom: 10px;
+line-height: 26px;
+}
+
+.products {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgb(210, 207, 201);
+}
+
+.products h3 {
+  text-align: left;
+  font-size: 24px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.products p {
+  font-size: 18px;
+  text-align: left;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+
+.product-wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  list-style: none;
+  overflow: hidden;
+}
+
+
+.product-item img{
+  width: 28%;
+  border: 4px black solid;
+  margin: 15px;
+  float: left;
+}
+
+.about {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgb(38, 83, 120);
+  padding: 20px;
+}
+
+.team {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.team h3 {
+  padding: 0px 60px;
+  color: rgb(201, 56, 78);
+}
+
+.team-fun, .team-values, .team-meow {
+  padding: 20px;
+  float: left;
+}
+
+.about p {
+  font-size: 18px;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+  line-height: 26px;
+}
+
+footer {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(67, 207, 135);
+  padding: 18px;
+}
+
+footer p{
+  text-align: right;
+}
+
+}
